@@ -1,0 +1,294 @@
+body, img, header, div, p, h1,h2,h3,h4,h5,h6, section, arcticle{
+	padding :0px;
+	margin:0px;
+}
+body{
+	width:100%;
+	height:auto;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	color: #11719e;
+	text-decoration:none;
+}
+li{
+	list-style-type:none;
+}
+.color-while-txt{
+	color: #fff;
+}
+/*-----------header----------------*/
+.header{
+	min-height: 80px;
+}
+.softgray{
+	color: #313131;
+	margin-top: 20px;
+	font-size: 26px;
+	font-weight:bold;
+}
+
+.softgray:hover{
+	font-size: 30px;
+}
+.text-nav{
+	color: #313131;
+	font-size: 14px;
+}
+.numberphone{
+	font-weight: bold;
+}
+/*-----------Section 1----------------*/
+.section-1{
+	background-color: #2f2f2f;
+	min-height: 529px;
+}
+.txt-sl-1{
+	margin-bottom: 51px;
+    margin-top: 145px;
+	font-weight: bold;
+	font-size: 56px;
+}
+.font-txt-s1{
+	margin-top: 3px;
+	font-size: 18px;
+}
+.text-nav:hover{
+	font-size: 17px;
+	font-weight: bold;
+}
+.arcslider{
+	min-height: 529px;
+}
+
+.ul-nav{
+	width: 100%;
+	margin-top: 11px;
+}
+/*-----------Section 2----------------*/
+.section-2{
+	min-height: 490px;
+	background-color: #eeeeee;
+}
+.font-h3-s2{
+	color: #3498db; 
+	font-weight: bold;
+	font-size: 21px;
+}
+.font-p-s2{
+	font-size: 14px;
+}
+.circle{
+ 	margin-top: 95px;
+}
+.bgcircle{
+	background-color: #3498db;
+	border-radius: 50%;
+	min-height: 114px;
+	position: relative;
+	width: 114px;
+	z-index: 1;
+}
+.img-bgcircle{
+	position: relative;
+	z-index: 999;
+}
+/*-----------Section 3----------------*/
+.section-3{
+	min-height: 860px;
+	background-color: #e5e5e5;
+}
+.cards3{
+	height: 349px;
+	background-color: #e5e5e5;
+}
+.s3-d1{
+	min-height: 491px;
+}
+.d1-s3-left{
+	min-height: 490px;
+}
+.btn-viewmore{
+	margin-top: 42px;
+    width: 269px;
+    text-transform: uppercase;
+}
+.d1-s3-right{
+	min-height: 490px;
+}
+.p-1-left-s3{
+	font-size: 14px
+}
+.cards3-title{
+	font-weight: bold;
+	font-size: 42px;
+}
+.cards3-text{
+	font-size: 18px;
+}
+.h4-s3-d2{
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.h2-s3-d2{
+	color: #000;
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.s3-a{
+	height:285px;
+	background-color: #fff;
+}
+.s3-a:hover{
+	background-color: #000;
+	color: #fff;
+}
+.s3-a:hover h4{
+	color: #fff;
+}
+.s3-a:hover h2{
+	color: #fff;
+}
+/*-----------Section 4----------------*/
+.section-4{
+	background-color: #eeeeee;
+	min-height: 532px;
+}
+.title-s4{
+	margin-top: 62px;
+}
+.cardtop-s4{
+	width: 370px;
+	height: 142px;
+	background-color: #2f2f2f;
+}
+
+.text-1-s4{
+	margin-top: 20px;
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.text-2-s4{
+	border-left:2px solid #fff;
+	color: #313131;
+	display: inline-block;
+	line-height: 12px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.border-txt-1-s4{
+	background-color: #fff;
+	min-height: 4px; 
+	width:62px
+}
+.h4-card-s4{
+	font-size: 18px;
+	color: #3498db;
+}
+.p-card-s4{
+	font-size: 14px;
+	color: #313131;
+}
+.date-1{
+	color: #fff;
+	background-color: #a49f9f;
+	min-height: 26px;
+	margin-top: 116px;
+	width: 136px;
+	line-height: 26px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.footer{
+	background-color: #c9c9c9;
+	min-height: 360px;
+}
+.p-softgrayy{
+	margin-bottom: 2rem;
+    margin-top: 4rem;
+    font-size: 18px;
+}
+/*-----------Footer----------------*/
+.p-footer{
+	color: #626262;
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.p-footer-end{
+	margin-top: 1rem;
+}
+.a-nav-footer{
+	color: #626262;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.nav-footer{
+	margin-top: 4rem;
+}
+.text-input{
+	margin-top: 0px;
+	width: 70%;
+	min-height: 38px;
+}
+.right-footer{
+	margin-top: 4rem;
+}
+.d1-right-footer{
+	margin-top: 1rem;
+}
+.text-footer-right{
+	color: #000;
+	margin-top: 2rem;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+.button-sub{
+	margin-bottom: 6px;
+}
+.square-1{
+	width: 32px;
+	min-height: 32px;
+	background-color: #fff;
+}
+.square{
+	margin-left: 6px;
+	width: 32px;
+	min-height: 32px;
+	background-color: #fff;
+}
+@media screen and (max-width: 370px){
+    .laptop{
+	   max-height: 50px;
+	}
+}
+@media screen and (max-width: 1160px){
+    .laptop{
+	   max-height: 200px;
+	}
+}
+@media screen and (max-width: 1202px){
+	.numberphone{
+	font-size: 12px;
+	}
+}
+@media screen and (max-width: 1002px){
+	.numberphone{
+	font-size: 7px;
+	}
+}
+@media screen and (max-width: 688px){
+    .laptop{
+	   max-height: 160px;
+	}
+}
+
